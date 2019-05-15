@@ -9,6 +9,8 @@ namespace UnitTestProject1
         [TestMethod]
         public void TestMethod1()
         {
+            var result = "one";
+            Assert.That(result, Is.SameAs("one"));
         }
     }
 }
